@@ -1,0 +1,20 @@
+{
+  "name": "attendease",
+  "version": "1.0.0",
+  "description": "AttendEase - Professional Student Attendance Management System",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "dev": "node dev-runner.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {}
+}

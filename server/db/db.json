@@ -1,0 +1,1258 @@
+{
+  "institution": {
+    "name": "Apex Institute of Engineering & Technology",
+    "code": "AIET-108",
+    "academicYear": "2024-2025",
+    "currentSemester": "Fall 2024",
+    "termStart": "2024-08-01",
+    "termEnd": "2024-12-15"
+  },
+  "stats": {
+    "totalStudents": 1248,
+    "presentToday": 1106,
+    "absentToday": 142,
+    "attendanceRate": 88.6,
+    "weeklyTrend": [
+      {
+        "day": "Mon",
+        "date": "Sep 08",
+        "present": 1078,
+        "absent": 170,
+        "rate": 86.4
+      },
+      {
+        "day": "Tue",
+        "date": "Sep 09",
+        "present": 1113,
+        "absent": 135,
+        "rate": 89.2
+      },
+      {
+        "day": "Wed",
+        "date": "Sep 10",
+        "present": 1096,
+        "absent": 152,
+        "rate": 87.8
+      },
+      {
+        "day": "Thu",
+        "date": "Sep 11",
+        "present": 1137,
+        "absent": 111,
+        "rate": 91.1
+      },
+      {
+        "day": "Fri",
+        "date": "Sep 12",
+        "present": 1106,
+        "absent": 142,
+        "rate": 88.6
+      }
+    ],
+    "distribution": [
+      {
+        "name": "Present",
+        "value": 1106,
+        "color": "#4f46e5"
+      },
+      {
+        "name": "Absent Unexcused",
+        "value": 104,
+        "color": "#f43f5e"
+      },
+      {
+        "name": "Approved Leave",
+        "value": 24,
+        "color": "#06b6d4"
+      },
+      {
+        "name": "Late Entry",
+        "value": 14,
+        "color": "#f59e0b"
+      }
+    ]
+  },
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "Dr. Arthur Vance",
+      "email": "admin@attendease.edu",
+      "role": "admin",
+      "designation": "Dean of Academic Affairs & Chief Controller",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "department": "Administration"
+    },
+    {
+      "id": "usr_faculty_1",
+      "name": "Dr. Alan Vance",
+      "email": "faculty@attendease.edu",
+      "role": "faculty",
+      "designation": "Professor & Head of Department",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "department": "Computer Science & Engineering",
+      "assignedClasses": [
+        "CSE-4A",
+        "CSE-3A"
+      ],
+      "assignedSubjects": [
+        "Distributed Systems",
+        "Cloud Computing"
+      ]
+    },
+    {
+      "id": "usr_faculty_2",
+      "name": "Prof. Priya Sharma",
+      "email": "priya.sharma@attendease.edu",
+      "role": "faculty",
+      "designation": "Associate Professor",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "department": "Computer Science & Engineering",
+      "assignedClasses": [
+        "CSE-4B",
+        "IT-2A"
+      ],
+      "assignedSubjects": [
+        "Machine Learning",
+        "Database Systems"
+      ]
+    },
+    {
+      "id": "usr_faculty_3",
+      "name": "Dr. Vikram Mehta",
+      "email": "vikram.mehta@attendease.edu",
+      "role": "faculty",
+      "designation": "Associate Professor",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "department": "Electronics & Communication",
+      "assignedClasses": [
+        "ECE-3A"
+      ],
+      "assignedSubjects": [
+        "Digital Signal Processing"
+      ]
+    },
+    {
+      "id": "usr_faculty_4",
+      "name": "Prof. Anita Roy",
+      "email": "anita.roy@attendease.edu",
+      "role": "faculty",
+      "designation": "Assistant Professor",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "department": "Electronics & Communication",
+      "assignedClasses": [
+        "ECE-3B"
+      ],
+      "assignedSubjects": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "id": "usr_student",
+      "name": "Alex Rivera",
+      "email": "student@attendease.edu",
+      "role": "student",
+      "rollNo": "CS2024-042",
+      "department": "Computer Science & Engineering",
+      "class": "CSE-4A",
+      "semester": "7th Semester",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+      "phone": "+1 (555) 234-8901",
+      "parentContact": "+1 (555) 987-6543",
+      "overallAttendance": 91.2,
+      "rfidCardId": "RFID-994821"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept_cse",
+      "code": "CSE",
+      "name": "Computer Science & Engineering",
+      "hod": "Dr. Alan Vance",
+      "studentsCount": 420,
+      "facultyCount": 22
+    },
+    {
+      "id": "dept_ece",
+      "code": "ECE",
+      "name": "Electronics & Communication Engineering",
+      "hod": "Dr. Vikram Mehta",
+      "studentsCount": 310,
+      "facultyCount": 16
+    },
+    {
+      "id": "dept_it",
+      "code": "IT",
+      "name": "Information Technology",
+      "hod": "Dr. Kevin Miller",
+      "studentsCount": 220,
+      "facultyCount": 12
+    },
+    {
+      "id": "dept_mech",
+      "code": "MECH",
+      "name": "Mechanical Engineering",
+      "hod": "Dr. Rajesh Kumar",
+      "studentsCount": 180,
+      "facultyCount": 11
+    },
+    {
+      "id": "dept_civil",
+      "code": "CIVIL",
+      "name": "Civil Engineering",
+      "hod": "Prof. Sarah Connor",
+      "studentsCount": 118,
+      "facultyCount": 8
+    }
+  ],
+  "classes": [
+    {
+      "id": "cls_cse_4a",
+      "code": "CSE-4A",
+      "department": "CSE",
+      "semester": 7,
+      "section": "A",
+      "totalStudents": 62,
+      "room": "Lab-301",
+      "classTeacher": "Dr. Alan Vance"
+    },
+    {
+      "id": "cls_cse_4b",
+      "code": "CSE-4B",
+      "department": "CSE",
+      "semester": 7,
+      "section": "B",
+      "totalStudents": 60,
+      "room": "Lab-304",
+      "classTeacher": "Prof. Priya Sharma"
+    },
+    {
+      "id": "cls_cse_3a",
+      "code": "CSE-3A",
+      "department": "CSE",
+      "semester": 5,
+      "section": "A",
+      "totalStudents": 64,
+      "room": "Hall-102",
+      "classTeacher": "Prof. David Chen"
+    },
+    {
+      "id": "cls_ece_3a",
+      "code": "ECE-3A",
+      "department": "ECE",
+      "semester": 5,
+      "section": "A",
+      "totalStudents": 56,
+      "room": "ECE-201",
+      "classTeacher": "Dr. Vikram Mehta"
+    },
+    {
+      "id": "cls_ece_3b",
+      "code": "ECE-3B",
+      "department": "ECE",
+      "semester": 5,
+      "section": "B",
+      "totalStudents": 52,
+      "room": "ECE-203",
+      "classTeacher": "Prof. Anita Roy"
+    },
+    {
+      "id": "cls_it_2a",
+      "code": "IT-2A",
+      "department": "IT",
+      "semester": 3,
+      "section": "A",
+      "totalStudents": 60,
+      "room": "IT-105",
+      "classTeacher": "Prof. Kevin Miller"
+    },
+    {
+      "id": "cls_mech_4a",
+      "code": "MECH-4A",
+      "department": "MECH",
+      "semester": 7,
+      "section": "A",
+      "totalStudents": 54,
+      "room": "Mech-Lab-2",
+      "classTeacher": "Dr. Rajesh Kumar"
+    },
+    {
+      "id": "cls_mech_4b",
+      "code": "MECH-4B",
+      "department": "MECH",
+      "semester": 7,
+      "section": "B",
+      "totalStudents": 50,
+      "room": "Mech-Hall-1",
+      "classTeacher": "Prof. Kevin Miller"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub_cs701",
+      "code": "CS701",
+      "name": "Distributed Systems",
+      "department": "CSE",
+      "credits": 4,
+      "faculty": "Dr. Alan Vance",
+      "weeklyHours": 4
+    },
+    {
+      "id": "sub_cs702",
+      "code": "CS702",
+      "name": "Machine Learning",
+      "department": "CSE",
+      "credits": 4,
+      "faculty": "Prof. Priya Sharma",
+      "weeklyHours": 4
+    },
+    {
+      "id": "sub_cs703",
+      "code": "CS703",
+      "name": "Cloud Computing & DevOps",
+      "department": "CSE",
+      "credits": 3,
+      "faculty": "Dr. Alan Vance",
+      "weeklyHours": 3
+    },
+    {
+      "id": "sub_cs704",
+      "code": "CS704",
+      "name": "Cyber Security & Cryptography",
+      "department": "CSE",
+      "credits": 3,
+      "faculty": "Prof. Kevin Miller",
+      "weeklyHours": 3
+    },
+    {
+      "id": "sub_cs705",
+      "code": "CS705",
+      "name": "Advanced Computer Networks",
+      "department": "CSE",
+      "credits": 3,
+      "faculty": "Prof. David Chen",
+      "weeklyHours": 3
+    },
+    {
+      "id": "sub_ec501",
+      "code": "EC501",
+      "name": "Digital Signal Processing",
+      "department": "ECE",
+      "credits": 4,
+      "faculty": "Dr. Vikram Mehta",
+      "weeklyHours": 4
+    },
+    {
+      "id": "sub_ec502",
+      "code": "EC502",
+      "name": "VLSI Design",
+      "department": "ECE",
+      "credits": 4,
+      "faculty": "Prof. Anita Roy",
+      "weeklyHours": 4
+    },
+    {
+      "id": "sub_it301",
+      "code": "IT301",
+      "name": "Database Management Systems",
+      "department": "IT",
+      "credits": 4,
+      "faculty": "Prof. David Chen",
+      "weeklyHours": 4
+    },
+    {
+      "id": "sub_me701",
+      "code": "ME701",
+      "name": "Thermodynamics II",
+      "department": "MECH",
+      "credits": 4,
+      "faculty": "Dr. Rajesh Kumar",
+      "weeklyHours": 4
+    },
+    {
+      "id": "sub_me702",
+      "code": "ME702",
+      "name": "Robotics & Automation",
+      "department": "MECH",
+      "credits": 3,
+      "faculty": "Prof. Kevin Miller",
+      "weeklyHours": 3
+    }
+  ],
+  "todayClasses": [
+    {
+      "id": "tc_1",
+      "class": "CSE-4A",
+      "subject": "Distributed Systems",
+      "code": "CS701",
+      "faculty": "Dr. Alan Vance",
+      "time": "09:00 AM - 10:00 AM",
+      "room": "Lab-301",
+      "present": 58,
+      "absent": 4,
+      "percentage": 93.5,
+      "status": "Completed",
+      "totalStudents": 62
+    },
+    {
+      "id": "tc_2",
+      "class": "CSE-4B",
+      "subject": "Machine Learning",
+      "code": "CS702",
+      "faculty": "Prof. Priya Sharma",
+      "time": "10:00 AM - 11:00 AM",
+      "room": "Lab-304",
+      "present": 54,
+      "absent": 6,
+      "percentage": 90,
+      "status": "Completed",
+      "totalStudents": 60
+    },
+    {
+      "id": "tc_3",
+      "class": "ECE-3A",
+      "subject": "Digital Signal Processing",
+      "code": "EC501",
+      "faculty": "Dr. Vikram Mehta",
+      "time": "11:15 AM - 12:15 PM",
+      "room": "ECE-201",
+      "present": 48,
+      "absent": 8,
+      "percentage": 85.7,
+      "status": "Completed",
+      "totalStudents": 56
+    },
+    {
+      "id": "tc_4",
+      "class": "ECE-3B",
+      "subject": "VLSI Design",
+      "code": "EC502",
+      "faculty": "Prof. Anita Roy",
+      "time": "01:00 PM - 02:00 PM",
+      "room": "ECE-203",
+      "present": 42,
+      "absent": 10,
+      "percentage": 80.8,
+      "status": "In Progress",
+      "totalStudents": 52
+    },
+    {
+      "id": "tc_5",
+      "class": "IT-2A",
+      "subject": "Database Management Systems",
+      "code": "IT301",
+      "faculty": "Prof. David Chen",
+      "time": "02:00 PM - 03:00 PM",
+      "room": "IT-105",
+      "present": 56,
+      "absent": 4,
+      "percentage": 93.3,
+      "status": "Completed",
+      "totalStudents": 60
+    },
+    {
+      "id": "tc_6",
+      "class": "MECH-4A",
+      "subject": "Thermodynamics II",
+      "code": "ME701",
+      "faculty": "Dr. Rajesh Kumar",
+      "time": "03:15 PM - 04:15 PM",
+      "room": "Mech-Lab-2",
+      "present": 45,
+      "absent": 9,
+      "percentage": 83.3,
+      "status": "Pending",
+      "totalStudents": 54
+    },
+    {
+      "id": "tc_7",
+      "class": "MECH-4B",
+      "subject": "Robotics & Automation",
+      "code": "ME702",
+      "faculty": "Prof. Kevin Miller",
+      "time": "04:15 PM - 05:15 PM",
+      "room": "Mech-Hall-1",
+      "present": 38,
+      "absent": 12,
+      "percentage": 76,
+      "status": "Low Attendance",
+      "totalStudents": 50
+    }
+  ],
+  "students": [
+    {
+      "id": "stu_1",
+      "rollNo": "CS2024-042",
+      "name": "Alex Rivera",
+      "email": "student@attendease.edu",
+      "phone": "+1 (555) 234-8901",
+      "parentName": "Carlos Rivera",
+      "parentPhone": "+1 (555) 987-6543",
+      "department": "CSE",
+      "class": "CSE-4A",
+      "semester": 7,
+      "attendanceRate": 91.2,
+      "presentClasses": 73,
+      "totalClasses": 80,
+      "status": "Good",
+      "rfid": "RFID-994821",
+      "subjectAttendance": [
+        {
+          "code": "CS701",
+          "name": "Distributed Systems",
+          "present": 22,
+          "total": 24,
+          "rate": 91.7
+        },
+        {
+          "code": "CS702",
+          "name": "Machine Learning",
+          "present": 20,
+          "total": 22,
+          "rate": 90.9
+        },
+        {
+          "code": "CS703",
+          "name": "Cloud Computing",
+          "present": 17,
+          "total": 18,
+          "rate": 94.4
+        },
+        {
+          "code": "CS704",
+          "name": "Cyber Security",
+          "present": 14,
+          "total": 16,
+          "rate": 87.5
+        }
+      ]
+    },
+    {
+      "id": "stu_2",
+      "rollNo": "CS2024-001",
+      "name": "Maya Patel",
+      "email": "maya.patel@attendease.edu",
+      "phone": "+1 (555) 345-6789",
+      "parentName": "Sanjay Patel",
+      "parentPhone": "+1 (555) 876-5432",
+      "department": "CSE",
+      "class": "CSE-4A",
+      "semester": 7,
+      "attendanceRate": 96.3,
+      "presentClasses": 77,
+      "totalClasses": 80,
+      "status": "Excellent",
+      "rfid": "RFID-994822"
+    },
+    {
+      "id": "stu_3",
+      "rollNo": "CS2024-015",
+      "name": "Jordan Lee",
+      "email": "jordan.lee@attendease.edu",
+      "phone": "+1 (555) 456-7890",
+      "parentName": "Jennifer Lee",
+      "parentPhone": "+1 (555) 765-4321",
+      "department": "CSE",
+      "class": "CSE-4A",
+      "semester": 7,
+      "attendanceRate": 71.3,
+      "presentClasses": 57,
+      "totalClasses": 80,
+      "status": "At Risk",
+      "rfid": "RFID-994823"
+    },
+    {
+      "id": "stu_4",
+      "rollNo": "CS2024-023",
+      "name": "Samantha Wright",
+      "email": "samantha.w@attendease.edu",
+      "phone": "+1 (555) 567-8901",
+      "parentName": "Robert Wright",
+      "parentPhone": "+1 (555) 654-3210",
+      "department": "CSE",
+      "class": "CSE-4A",
+      "semester": 7,
+      "attendanceRate": 88.8,
+      "presentClasses": 71,
+      "totalClasses": 80,
+      "status": "Good",
+      "rfid": "RFID-994824"
+    },
+    {
+      "id": "stu_5",
+      "rollNo": "CS2024-037",
+      "name": "David Zhao",
+      "email": "david.zhao@attendease.edu",
+      "phone": "+1 (555) 678-9012",
+      "parentName": "Wei Zhao",
+      "parentPhone": "+1 (555) 543-2109",
+      "department": "CSE",
+      "class": "CSE-4A",
+      "semester": 7,
+      "attendanceRate": 68.8,
+      "presentClasses": 55,
+      "totalClasses": 80,
+      "status": "Critical",
+      "rfid": "RFID-994825"
+    },
+    {
+      "id": "stu_6",
+      "rollNo": "EC2024-008",
+      "name": "Elena Rostova",
+      "email": "elena.r@attendease.edu",
+      "phone": "+1 (555) 789-0123",
+      "parentName": "Dmitri Rostov",
+      "parentPhone": "+1 (555) 432-1098",
+      "department": "ECE",
+      "class": "ECE-3A",
+      "semester": 5,
+      "attendanceRate": 94.7,
+      "presentClasses": 72,
+      "totalClasses": 76,
+      "status": "Excellent",
+      "rfid": "RFID-881231"
+    },
+    {
+      "id": "stu_7",
+      "rollNo": "EC2024-019",
+      "name": "Lucas Bennett",
+      "email": "lucas.b@attendease.edu",
+      "phone": "+1 (555) 890-1234",
+      "parentName": "Karen Bennett",
+      "parentPhone": "+1 (555) 321-0987",
+      "department": "ECE",
+      "class": "ECE-3B",
+      "semester": 5,
+      "attendanceRate": 73.6,
+      "presentClasses": 56,
+      "totalClasses": 76,
+      "status": "At Risk",
+      "rfid": "RFID-881232"
+    },
+    {
+      "id": "stu_8",
+      "rollNo": "IT2024-012",
+      "name": "Chloe Dupont",
+      "email": "chloe.d@attendease.edu",
+      "phone": "+1 (555) 901-2345",
+      "parentName": "Marc Dupont",
+      "parentPhone": "+1 (555) 210-9876",
+      "department": "IT",
+      "class": "IT-2A",
+      "semester": 3,
+      "attendanceRate": 92.5,
+      "presentClasses": 74,
+      "totalClasses": 80,
+      "status": "Good",
+      "rfid": "RFID-771441"
+    },
+    {
+      "id": "stu_9",
+      "rollNo": "ME2024-004",
+      "name": "Tariq Mansoor",
+      "email": "tariq.m@attendease.edu",
+      "phone": "+1 (555) 012-3456",
+      "parentName": "Farid Mansoor",
+      "parentPhone": "+1 (555) 109-8765",
+      "department": "MECH",
+      "class": "MECH-4B",
+      "semester": 7,
+      "attendanceRate": 74,
+      "presentClasses": 57,
+      "totalClasses": 77,
+      "status": "At Risk",
+      "rfid": "RFID-662331"
+    },
+    {
+      "id": "stu_10",
+      "rollNo": "CS2024-055",
+      "name": "Rachel Gomez",
+      "email": "rachel.g@attendease.edu",
+      "phone": "+1 (555) 123-4567",
+      "parentName": "Maria Gomez",
+      "parentPhone": "+1 (555) 098-7654",
+      "department": "CSE",
+      "class": "CSE-4A",
+      "semester": 7,
+      "attendanceRate": 85,
+      "presentClasses": 68,
+      "totalClasses": 80,
+      "status": "Good",
+      "rfid": "RFID-994826"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "fac_1",
+      "facultyId": "FAC-1001",
+      "name": "Dr. Alan Vance",
+      "email": "faculty@attendease.edu",
+      "phone": "+1 (555) 601-2244",
+      "department": "CSE",
+      "designation": "Professor & HOD",
+      "qualification": "Ph.D. Computer Science (Stanford)",
+      "experience": "14 Years",
+      "classes": [
+        "CSE-4A",
+        "CSE-3A"
+      ],
+      "subjects": [
+        "Distributed Systems",
+        "Cloud Computing & DevOps"
+      ]
+    },
+    {
+      "id": "fac_2",
+      "facultyId": "FAC-1002",
+      "name": "Prof. Priya Sharma",
+      "email": "priya.sharma@attendease.edu",
+      "phone": "+1 (555) 601-3355",
+      "department": "CSE",
+      "designation": "Associate Professor",
+      "qualification": "M.Tech CSE, Ph.D. Pursuing (IIT)",
+      "experience": "9 Years",
+      "classes": [
+        "CSE-4B"
+      ],
+      "subjects": [
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": "fac_3",
+      "facultyId": "FAC-1003",
+      "name": "Dr. Vikram Mehta",
+      "email": "vikram.mehta@attendease.edu",
+      "phone": "+1 (555) 601-4466",
+      "department": "ECE",
+      "designation": "Associate Professor & HOD",
+      "qualification": "Ph.D. Signal Processing",
+      "experience": "12 Years",
+      "classes": [
+        "ECE-3A"
+      ],
+      "subjects": [
+        "Digital Signal Processing"
+      ]
+    },
+    {
+      "id": "fac_4",
+      "facultyId": "FAC-1004",
+      "name": "Prof. Anita Roy",
+      "email": "anita.roy@attendease.edu",
+      "phone": "+1 (555) 601-5577",
+      "department": "ECE",
+      "designation": "Assistant Professor",
+      "qualification": "M.S. Microelectronics",
+      "experience": "6 Years",
+      "classes": [
+        "ECE-3B"
+      ],
+      "subjects": [
+        "VLSI Design"
+      ]
+    },
+    {
+      "id": "fac_5",
+      "facultyId": "FAC-1005",
+      "name": "Prof. David Chen",
+      "email": "david.chen@attendease.edu",
+      "phone": "+1 (555) 601-6688",
+      "department": "IT",
+      "designation": "Associate Professor",
+      "qualification": "M.Tech IT",
+      "experience": "8 Years",
+      "classes": [
+        "IT-2A"
+      ],
+      "subjects": [
+        "Database Management Systems"
+      ]
+    },
+    {
+      "id": "fac_6",
+      "facultyId": "FAC-1006",
+      "name": "Dr. Rajesh Kumar",
+      "email": "rajesh.kumar@attendease.edu",
+      "phone": "+1 (555) 601-7799",
+      "department": "MECH",
+      "designation": "Professor & HOD",
+      "qualification": "Ph.D. Thermal Engineering",
+      "experience": "16 Years",
+      "classes": [
+        "MECH-4A"
+      ],
+      "subjects": [
+        "Thermodynamics II"
+      ]
+    }
+  ],
+  "timetable": [
+    {
+      "id": "tt_1",
+      "day": "Monday",
+      "time": "09:00 - 10:00",
+      "class": "CSE-4A",
+      "subject": "Distributed Systems",
+      "faculty": "Dr. Alan Vance",
+      "room": "Lab-301"
+    },
+    {
+      "id": "tt_2",
+      "day": "Monday",
+      "time": "10:00 - 11:00",
+      "class": "CSE-4A",
+      "subject": "Machine Learning",
+      "faculty": "Prof. Priya Sharma",
+      "room": "Lab-304"
+    },
+    {
+      "id": "tt_3",
+      "day": "Monday",
+      "time": "11:15 - 12:15",
+      "class": "CSE-4A",
+      "subject": "Cloud Computing & DevOps",
+      "faculty": "Dr. Alan Vance",
+      "room": "Hall-201"
+    },
+    {
+      "id": "tt_4",
+      "day": "Monday",
+      "time": "01:00 - 03:00",
+      "class": "CSE-4A",
+      "subject": "Distributed Systems Lab",
+      "faculty": "Dr. Alan Vance",
+      "room": "Lab-301"
+    },
+    {
+      "id": "tt_5",
+      "day": "Tuesday",
+      "time": "09:00 - 10:00",
+      "class": "CSE-4A",
+      "subject": "Cyber Security & Cryptography",
+      "faculty": "Prof. Kevin Miller",
+      "room": "Hall-102"
+    },
+    {
+      "id": "tt_6",
+      "day": "Tuesday",
+      "time": "10:00 - 11:00",
+      "class": "CSE-4A",
+      "subject": "Distributed Systems",
+      "faculty": "Dr. Alan Vance",
+      "room": "Lab-301"
+    },
+    {
+      "id": "tt_7",
+      "day": "Tuesday",
+      "time": "11:15 - 12:15",
+      "class": "CSE-4A",
+      "subject": "Machine Learning",
+      "faculty": "Prof. Priya Sharma",
+      "room": "Lab-304"
+    },
+    {
+      "id": "tt_8",
+      "day": "Wednesday",
+      "time": "09:00 - 10:00",
+      "class": "CSE-4A",
+      "subject": "Cloud Computing & DevOps",
+      "faculty": "Dr. Alan Vance",
+      "room": "Hall-201"
+    },
+    {
+      "id": "tt_9",
+      "day": "Wednesday",
+      "time": "10:00 - 11:00",
+      "class": "CSE-4A",
+      "subject": "Cyber Security",
+      "faculty": "Prof. Kevin Miller",
+      "room": "Hall-102"
+    },
+    {
+      "id": "tt_10",
+      "day": "Thursday",
+      "time": "09:00 - 10:00",
+      "class": "CSE-4A",
+      "subject": "Distributed Systems",
+      "faculty": "Dr. Alan Vance",
+      "room": "Lab-301"
+    },
+    {
+      "id": "tt_11",
+      "day": "Thursday",
+      "time": "10:00 - 11:00",
+      "class": "CSE-4A",
+      "subject": "Machine Learning",
+      "faculty": "Prof. Priya Sharma",
+      "room": "Lab-304"
+    },
+    {
+      "id": "tt_12",
+      "day": "Friday",
+      "time": "09:00 - 10:00",
+      "class": "CSE-4A",
+      "subject": "Project Mentorship & Review",
+      "faculty": "Dr. Alan Vance",
+      "room": "Conf-1"
+    }
+  ],
+  "attendanceRecords": [
+    {
+      "id": "att_rec_1",
+      "date": "2024-09-12",
+      "class": "CSE-4A",
+      "subject": "Distributed Systems",
+      "faculty": "Dr. Alan Vance",
+      "period": "1st Period",
+      "timestamp": "2024-09-12T09:05:00Z",
+      "records": [
+        {
+          "studentId": "stu_1",
+          "rollNo": "CS2024-042",
+          "name": "Alex Rivera",
+          "status": "present",
+          "method": "QR_CODE"
+        },
+        {
+          "studentId": "stu_2",
+          "rollNo": "CS2024-001",
+          "name": "Maya Patel",
+          "status": "present",
+          "method": "BIOMETRIC"
+        },
+        {
+          "studentId": "stu_3",
+          "rollNo": "CS2024-015",
+          "name": "Jordan Lee",
+          "status": "absent",
+          "method": "MANUAL"
+        },
+        {
+          "studentId": "stu_4",
+          "rollNo": "CS2024-023",
+          "name": "Samantha Wright",
+          "status": "present",
+          "method": "MANUAL"
+        },
+        {
+          "studentId": "stu_5",
+          "rollNo": "CS2024-037",
+          "name": "David Zhao",
+          "status": "absent",
+          "method": "MANUAL"
+        },
+        {
+          "studentId": "stu_10",
+          "rollNo": "CS2024-055",
+          "name": "Rachel Gomez",
+          "status": "present",
+          "method": "MANUAL"
+        }
+      ]
+    },
+    {
+      "id": "att_rec_2",
+      "date": "2024-09-11",
+      "class": "CSE-4A",
+      "subject": "Machine Learning",
+      "faculty": "Prof. Priya Sharma",
+      "period": "2nd Period",
+      "timestamp": "2024-09-11T10:05:00Z",
+      "records": [
+        {
+          "studentId": "stu_1",
+          "rollNo": "CS2024-042",
+          "name": "Alex Rivera",
+          "status": "present",
+          "method": "MANUAL"
+        },
+        {
+          "studentId": "stu_2",
+          "rollNo": "CS2024-001",
+          "name": "Maya Patel",
+          "status": "present",
+          "method": "MANUAL"
+        },
+        {
+          "studentId": "stu_3",
+          "rollNo": "CS2024-015",
+          "name": "Jordan Lee",
+          "status": "present",
+          "method": "MANUAL"
+        },
+        {
+          "studentId": "stu_4",
+          "rollNo": "CS2024-023",
+          "name": "Samantha Wright",
+          "status": "present",
+          "method": "MANUAL"
+        },
+        {
+          "studentId": "stu_5",
+          "rollNo": "CS2024-037",
+          "name": "David Zhao",
+          "status": "absent",
+          "method": "MANUAL"
+        },
+        {
+          "studentId": "stu_10",
+          "rollNo": "CS2024-055",
+          "name": "Rachel Gomez",
+          "status": "present",
+          "method": "MANUAL"
+        }
+      ]
+    },
+    {
+      "id": "att_rec_3",
+      "date": "2024-09-10",
+      "class": "CSE-4A",
+      "subject": "Cloud Computing",
+      "faculty": "Dr. Alan Vance",
+      "period": "3rd Period",
+      "timestamp": "2024-09-10T11:20:00Z",
+      "records": [
+        {
+          "studentId": "stu_1",
+          "rollNo": "CS2024-042",
+          "name": "Alex Rivera",
+          "status": "present",
+          "method": "QR_CODE"
+        },
+        {
+          "studentId": "stu_2",
+          "rollNo": "CS2024-001",
+          "name": "Maya Patel",
+          "status": "present",
+          "method": "BIOMETRIC"
+        },
+        {
+          "studentId": "stu_3",
+          "rollNo": "CS2024-015",
+          "name": "Jordan Lee",
+          "status": "late",
+          "method": "BIOMETRIC"
+        },
+        {
+          "studentId": "stu_4",
+          "rollNo": "CS2024-023",
+          "name": "Samantha Wright",
+          "status": "present",
+          "method": "MANUAL"
+        },
+        {
+          "studentId": "stu_5",
+          "rollNo": "CS2024-037",
+          "name": "David Zhao",
+          "status": "excused",
+          "method": "LEAVE_APPROVAL"
+        },
+        {
+          "studentId": "stu_10",
+          "rollNo": "CS2024-055",
+          "name": "Rachel Gomez",
+          "status": "present",
+          "method": "MANUAL"
+        }
+      ]
+    }
+  ],
+  "correctionRequests": [
+    {
+      "id": "corr_1",
+      "studentId": "stu_1",
+      "studentName": "Alex Rivera",
+      "rollNo": "CS2024-042",
+      "class": "CSE-4A",
+      "subject": "Distributed Systems",
+      "date": "2024-09-08",
+      "markedStatus": "absent",
+      "requestedStatus": "present",
+      "reason": "RFID scanner at Hall B had a network timeout during morning rush. Faculty Dr. Vance verified my physical presence.",
+      "proofDocUrl": "sample-gate-pass.pdf",
+      "status": "pending",
+      "submittedAt": "2024-09-09T14:30:00Z",
+      "reviewedBy": null,
+      "remarks": ""
+    },
+    {
+      "id": "corr_2",
+      "studentId": "stu_3",
+      "studentName": "Jordan Lee",
+      "rollNo": "CS2024-015",
+      "class": "CSE-4A",
+      "subject": "Machine Learning",
+      "date": "2024-09-04",
+      "markedStatus": "absent",
+      "requestedStatus": "present",
+      "reason": "Represented college at IEEE Hackathon. Approved OD letter submitted to Dean's office.",
+      "proofDocUrl": "ieee-hackathon-cert.pdf",
+      "status": "approved",
+      "submittedAt": "2024-09-05T09:15:00Z",
+      "reviewedBy": "Dr. Arthur Vance",
+      "remarks": "On-duty attendance granted as per IEEE committee letter."
+    },
+    {
+      "id": "corr_3",
+      "studentId": "stu_5",
+      "studentName": "David Zhao",
+      "rollNo": "CS2024-037",
+      "class": "CSE-4A",
+      "subject": "Cloud Computing",
+      "date": "2024-09-02",
+      "markedStatus": "absent",
+      "requestedStatus": "excused",
+      "reason": "Medical appointment for fever and acute bronchitis.",
+      "proofDocUrl": "clinic-prescription.pdf",
+      "status": "rejected",
+      "submittedAt": "2024-09-03T11:00:00Z",
+      "reviewedBy": "Dr. Arthur Vance",
+      "remarks": "Medical certificate not endorsed by college dispensary within 48 hours."
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "leave_1",
+      "studentId": "stu_1",
+      "studentName": "Alex Rivera",
+      "rollNo": "CS2024-042",
+      "class": "CSE-4A",
+      "type": "Medical Leave",
+      "fromDate": "2024-09-18",
+      "toDate": "2024-09-19",
+      "days": 2,
+      "reason": "Scheduled minor oral surgery recovery.",
+      "status": "pending",
+      "submittedAt": "2024-09-13T10:00:00Z"
+    },
+    {
+      "id": "leave_2",
+      "studentId": "stu_4",
+      "studentName": "Samantha Wright",
+      "rollNo": "CS2024-023",
+      "class": "CSE-4A",
+      "type": "Duty Leave (OD)",
+      "fromDate": "2024-09-22",
+      "toDate": "2024-09-23",
+      "days": 2,
+      "reason": "National Robotics Championship competition in Bangalore.",
+      "status": "approved",
+      "submittedAt": "2024-09-10T16:20:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "title": "Attendance Below Threshold",
+      "message": "Student Jordan Lee (CS2024-015) has dropped to 71.3% attendance. Immediate counseling required.",
+      "type": "warning",
+      "timestamp": "15 mins ago",
+      "read": false,
+      "targetRole": [
+        "admin",
+        "faculty"
+      ]
+    },
+    {
+      "id": "notif_2",
+      "title": "New Attendance Correction Request",
+      "message": "Alex Rivera submitted a correction request for CS701 Distributed Systems on Sep 08.",
+      "type": "info",
+      "timestamp": "1 hour ago",
+      "read": false,
+      "targetRole": [
+        "admin",
+        "faculty"
+      ]
+    },
+    {
+      "id": "notif_3",
+      "title": "Biometric Device AIET-GATE-02 Online",
+      "message": "Central gate scanner successfully synchronized 312 clock-in events with server.",
+      "type": "success",
+      "timestamp": "2 hours ago",
+      "read": true,
+      "targetRole": [
+        "admin"
+      ]
+    },
+    {
+      "id": "notif_4",
+      "title": "Institutional Attendance Summary Ready",
+      "message": "Daily attendance reached 88.6% with 1,106 students present across all 6 engineering departments.",
+      "type": "info",
+      "timestamp": "3 hours ago",
+      "read": true,
+      "targetRole": [
+        "admin",
+        "faculty",
+        "student"
+      ]
+    }
+  ],
+  "settings": {
+    "minimumRequiredPercentage": 75,
+    "warningPercentage": 80,
+    "lateEntryGraceMinutes": 15,
+    "qrCodeValiditySeconds": 30,
+    "allowBiometricSync": true,
+    "enableEmailDefaulterAlerts": true,
+    "institutionName": "Apex Institute of Engineering & Technology",
+    "academicSession": "2024 - 2025 Odd Semester",
+    "curfewTime": "09:30 AM"
+  },
+  "biometricLogs": [
+    {
+      "id": "bio_1",
+      "deviceId": "GATE-CARD-READER-1",
+      "studentId": "stu_1",
+      "rollNo": "CS2024-042",
+      "studentName": "Alex Rivera",
+      "timestamp": "2024-09-14T08:52:14Z",
+      "status": "VERIFIED",
+      "type": "RFID_TAP"
+    },
+    {
+      "id": "bio_2",
+      "deviceId": "GATE-CARD-READER-1",
+      "studentId": "stu_2",
+      "rollNo": "CS2024-001",
+      "studentName": "Maya Patel",
+      "timestamp": "2024-09-14T08:53:40Z",
+      "status": "VERIFIED",
+      "type": "RFID_TAP"
+    },
+    {
+      "id": "bio_3",
+      "deviceId": "LAB-FP-SCANNER-3",
+      "studentId": "stu_4",
+      "rollNo": "CS2024-023",
+      "studentName": "Samantha Wright",
+      "timestamp": "2024-09-14T08:58:05Z",
+      "status": "VERIFIED",
+      "type": "FINGERPRINT"
+    },
+    {
+      "id": "bio_4",
+      "deviceId": "GATE-CARD-READER-2",
+      "studentId": "stu_10",
+      "rollNo": "CS2024-055",
+      "studentName": "Rachel Gomez",
+      "timestamp": "2024-09-14T09:02:11Z",
+      "status": "VERIFIED",
+      "type": "RFID_TAP"
+    },
+    {
+      "deviceId": "GATE-CARD-READER-1",
+      "studentId": "stu_1",
+      "rollNo": "CS2024-042",
+      "studentName": "Alex Rivera",
+      "timestamp": "2026-09-14T02:24:19.283Z",
+      "status": "VERIFIED",
+      "type": "RFID_TAP",
+      "id": "item_1789352659283_hjyuc8",
+      "createdAt": "2026-09-14T02:24:19.284Z"
+    }
+  ],
+  "activeQrSessions": {}
+}
